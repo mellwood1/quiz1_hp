@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+html {
+    background-color: darkslategray;
+}
+
+main {
+    display: flex;
+    gap: 1.5em;
+}
+
+main p {
+    margin: 1em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    max-width: 150px;
+    margin: 1em;
+}
+
+header h2 {
+    font-size: 250%;
+}
+header h3 {
+    font-size: 200%;
+}
+
+#nav_menu {
+    background-color: darkslateblue;
+}
+
+#nav_menu ul{
+    display: flex;
+    border-top: 3px ridge greenyellow;
+    border-bottom: 3px ridge greenyellow;
+    list-style-type: none;
+}
+
+#nav_menu li {
+    width: 20%;
+}
+
+#nav_menu a {
+    display: block;
+    padding: 0.75em 0;
+    text-align: center;
+    color: cyan;
+    text-decoration: none;
+    font-size: 110%;
+    font-weight: bold;
+    font-variant: small-caps;
+    transition: all ease-in-out 300ms;
+}
+
+#nav_menu a:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+#motto {
+  font-size: 250%;
+  color: greenyellow;
+  margin-top: 0.25em;
+  text-align: center;
+  font-variant: small-caps;
+}
+
+#mottodesc {
+  width: 70%;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+section {
+    width: 80%;
+}
+
+section img {
+    max-width: 300px;
+    float: left;
+    border: 3px ridge green;
+    border-radius: 15px;
+    margin: 1em;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 100%;
+    color: white;
+    max-width: 1000px;
+    width: 80%;     /**/
+    margin: 0 auto; /**/
+}
+
+aside h3 {
+    text-align: center;
+    margin-bottom: .25em;
+}
+
+aside ul {
+  width: 100%;
+  background-color: brown;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+  border-radius: 15px;
+}
+
+aside a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+aside a:hover {
+  color: greenyellow;
+}
+
+
+
+footer {
+    border-top: 3px ridge greenyellow;
+}
+
+
+footer p {
+    padding: 2em;
+    text-align: center;
+    font-size: 85%;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
